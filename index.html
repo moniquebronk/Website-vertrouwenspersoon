@@ -243,11 +243,27 @@
         .hero-right {
             display: flex;
             flex-direction: column;
-            justify-content: flex-end;
-            padding: 0 4rem 5rem;
+            padding: 4rem 4rem;
             background: var(--sage);
             color: var(--cream);
             position: relative;
+        }
+
+        .hero-brand {
+            font-family: 'Fraunces', serif;
+            font-weight: 300;
+            font-size: clamp(2.25rem, 3.8vw, 3.2rem);
+            color: var(--cream);
+            letter-spacing: -0.02em;
+            line-height: 1;
+            margin: 0;
+        }
+
+        .hero-brand i {
+            font-family: 'Outfit', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            color: var(--sage-light);
         }
 
         .hero-desc {
@@ -255,6 +271,7 @@
             opacity: 0.88;
             font-size: 1.05rem;
             max-width: 380px;
+            margin-top: auto;
             margin-bottom: 3rem;
             position: relative;
         }
@@ -1305,6 +1322,7 @@
             <h1>Het begint met <i>vertrouwen</i></h1>
         </div>
         <div class="hero-right">
+            <h2 class="hero-brand">Moons <i>VP</i></h2>
             <p class="hero-desc">Vertrouwen ontstaat niet vanzelf. Een veilige werkomgeving vraagt aandacht, openheid en iemand die er écht voor je is. Natuurlijk is dit waar jouw organisatie zich voor wil inzetten, want het belang van iedere medewerker staat altijd voorop. Als extern vertrouwenspersoon ben ik de onafhankelijke gesprekspartner voor jouw medewerkers én voor jou als werkgever. Voor organisaties die verder willen gaan dan het afvinken van een hokje.</p>
             <a href="#contact" class="hero-cta">
                 Kennismaken
